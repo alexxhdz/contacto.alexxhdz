@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #81A378;
+    color: #ffffff;
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        img{
+            width: 7%;
+            border-radius: 50%;
+            margin: 20px;
+
+        }
+        .hash{
+            font-weight: 600;
+            letter-spacing: 5px;
+            text-align: center;
+        }
+        h2{
+            font-size: 30px;
+            text-align: center;
+            margin: 10px;
+            font-weight: 1000;
+        }
+        p{
+            text-align: center;
+            margin: 20px;
+            line-height: 1.5;
+            width: 50%;
+        }
+
+    }
+    .secciones{
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        flex-wrap: wrap;
+        a{
+            padding: 30px;
+            width: 20%;
+            text-align: center;
+            margin: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            letter-spacing: 1px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            ion-icon{
+                font-size: 20px;
+                padding-right: 20px;
+                
+            }
+        }
+        a:hover{
+            background-color: #ffffff !important;
+            color: #000000;
+        }
+    }
+    .mas{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        img{
+            width: 20%;
+            margin: 20px;
+        }
+        .correo{
+            text-align: center;
+            margin: 20px;
+            line-height: 1.5;
+            font-weight: 550;
+        }
+        h3{
+            margin: 10px;
+        }
+        p{
+            text-align: center;
+            margin: 20px;
+            line-height: 1.5;
+            width: 50%;
+        }
+    }
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #DE9858;
+        height: 10vh;
+        letter-spacing: 2px;
+    }
+}
+
+
+
+@media (max-width: 600px){
+    body{
+        main{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            img{
+                width: 30%;
+                border-radius: 50%;
+                margin: 20px;
+    
+            }
+            .hash{
+                font-weight: 600;
+                letter-spacing: 5px;
+            }
+            h2{
+                font-size: 30px;
+                text-align: center;
+                margin: 10px;
+                font-weight: 1000;
+            }
+            p{
+                text-align: center;
+                margin: 20px;
+                line-height: 1.5;
+                width: 85%;
+            }
+        }
+        .secciones{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            a{
+                padding: 20px;
+                width: 93%;
+                text-align: center;
+                margin: 5px;
+                text-decoration: none;
+                font-weight: 600;
+                letter-spacing: 1px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                ion-icon{
+                    font-size: 20px;
+                    padding-right: 20px;
+                }
+            }
+        }
+        .mas{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            img{
+                width: 50%;
+                margin: 20px;
+            }
+            .correo{
+                margin: 20px;
+                line-height: 1.5;
+                font-weight: 550;
+                text-align: center;
+            }
+            h3{
+                margin: 10px;
+                text-align: center;
+            }
+            p{
+                text-align: center;
+                margin: 20px;
+                line-height: 1.5;
+                width: 85%;
+            }
+        }
+        footer{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 10vh;
+            padding: 30px;
+            font-size: 12px;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+    }
+}
